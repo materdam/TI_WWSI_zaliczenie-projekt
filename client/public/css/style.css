@@ -1,0 +1,239 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../pics/wallpaper.jpg);
+}
+h3{
+    font-size: 20px;
+    padding: 10px 30px;
+    background: #6d1f1f;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+}
+#footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:130px;   /* Height of the footer */
+    background:rgb(95, 30, 30);
+    display: inline-flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content:center;
+ }
+#fot-box{
+    padding: 10px 50px;
+    color: #e92121;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+a:active,
+a:visited,
+a:focus {
+    color:black
+}
+
+.red_tag {
+    background: #F44336;
+    color: #fff;
+    padding: 10px;
+}
+
+header {
+    padding-top: 5px;
+    background: #682525;
+    position: relative;
+}
+
+header .logo {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ranga', cursive;
+    color: #ffffff;
+    border-bottom: 6px solid #5647e2;
+    display: block;
+    padding-bottom: 10px;
+}
+
+header .open_nav {
+    position: absolute;
+    left:0px;
+}
+
+
+header .navItem {
+    font-weight: 300;
+    font-size: 12px;
+    color:#bababa;
+    padding:10px;
+    border-top: 1px solid #404040;
+}
+
+header .navItem a {
+    color:inherit;
+    text-decoration: none;
+}
+
+header .navItem span {
+    color:white;
+    margin-right:10px;
+}
+
+.comic_item {
+    border-bottom: 4px solid #f1f1f1;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: block;
+    background: #f5f5f578;
+}
+
+.comic_item .comic_header h2 {
+    font-size: 26px;
+    color: #702e2e;
+    margin: 4px 0px 0px 0px;
+    font-weight: 700;
+}
+
+
+.comic_item .comic_bubble {
+    background: #E91E63;
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.comic_item .comic_bubble.rating {
+    background: #5f5f5f;
+}
+
+.comic_item .comic_author {
+    font-size: 15px;
+    color: #5f5f5f;
+    font-weight: 700;
+}
+
+.comic_item .comic_items {
+    font-size:13px;
+}
+
+.comic_item .comic_items strong { 
+    color: #ffffff;
+}
+.comic_item .comic_items div {
+    margin-bottom: 8px;
+}
+
+.loadmore {
+    background: #dbdbdb;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/*=============================
+            ADD
+===============================*/
+
+.rl_container {
+    text-align: center;
+}
+
+.rl_container .form_element {
+    margin-top: 20px;
+}
+
+
+.rl_container h2 {
+    font-size: 33px;
+    font-weight: 300;
+    color: #e92121;
+}
+
+.rl_container input {
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    padding: 11px 31px;
+    background: #f7f7f7;
+    font-weight: 300;
+    width: 260px;
+}
+.rl_container.article input {
+    width: 80%;
+}
+
+.rl_container.article textarea {
+    background: #f7f7f7;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.rl_container.article select {
+    width: 60%;
+    background: #f7f7f7;
+    font-size: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+.rl_container button {
+    font-size: 20px;
+    padding: 10px 52px;
+    background: #6d1f1f;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    width: 260px;
+}
+
+
+.rl_container .error {
+    color: #FF5722;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.rl_container .success a {
+    color: #FF5722;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1400px) {
+    .loadmore {
+      display: none;
+    }
+  }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #d8d8d8;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #d8d8d8;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #d8d8d8;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #d8d8d8;
+  }
